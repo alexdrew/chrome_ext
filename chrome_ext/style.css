@@ -1,0 +1,25 @@
+header {
+    background-color: lightgreen
+}
+
+body {
+    min-width: 600px;
+    min-height: 400px;
+    margin: 30px;
+}
+
+#greet {
+    text-align: center;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 25% 75%
+}
+
+.options {
+    display: inline-block;
+    margin: 5px 30px;
+    text-align: center;
+    background-color: lightgray
+}

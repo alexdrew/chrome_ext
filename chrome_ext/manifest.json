@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Hound Sound",
+  "version": "1.0",
+  "description": "The all in one messaging mangement app!",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["jquery-3.1.1.min.js", "main.js"]
+    }
+  ],
+  "permissions": ["http://localhost:3000/*"]
+}
